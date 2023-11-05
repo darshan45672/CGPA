@@ -1,14 +1,14 @@
 const form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  /* const main = document.querySelector("main");
+  const main = document.querySelector("main");
   form.classList.add("none");
 
   const p = document.createElement("p");
-  p.innerText = "Congratulations";
+  p.innerText = "Congratulations your CGPA is: ....";
 
   main.appendChild(p);
-  console.log("Success"); */
+  console.log("Success");
 });
 
 const credit3Sub1 = document.getElementById("c3-1");
@@ -25,7 +25,7 @@ const credit1Sub3 = document.getElementById("c1-3");
 const credit1Sub4 = document.getElementById("c1-4");
 const credit1Sub5 = document.getElementById("c1-5");
 
-function getGradePoints(marks) {
+/* function getGradePoints(marks) {
   if (marks >= 90) {
     return 10;
   } else if (marks >= 80) {
@@ -45,4 +45,4 @@ function getGradePoints(marks) {
   }
 }
 
-console.log(getGradePoints(40));
+console.log(getGradePoints(40)); */
