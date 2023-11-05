@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 60vw;
+    margin-inline: auto;
+  }
+
+  img {
+    max-height: 80vh;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+.none {
+  display: none;
+}
