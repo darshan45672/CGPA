@@ -9,6 +9,10 @@
   }
 }
 
+img {
+  object-fit: cover;
+}
+
 ::-webkit-scrollbar {
   width: 0.6em;
 }
