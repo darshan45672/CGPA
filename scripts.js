@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
   console.log("Success");
 });
 
-const credit3Sub1 = document.getElementById("c3-1");
+const credit3Sub1 = document.getElementById("c3-1").value;
 const credit3Sub2 = document.getElementById("c3-2");
 
 const credit4Sub1 = document.getElementById("c4-1");
@@ -24,6 +24,8 @@ const credit1Sub2 = document.getElementById("c1-2");
 const credit1Sub3 = document.getElementById("c1-3");
 const credit1Sub4 = document.getElementById("c1-4");
 const credit1Sub5 = document.getElementById("c1-5");
+
+console.log(credit4Sub1)
 
 /* function getGradePoints(marks) {
   if (marks >= 90) {
